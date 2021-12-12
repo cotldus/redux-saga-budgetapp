@@ -1,23 +1,29 @@
-# Getting Started with Create React App
+# Introduction
+
+This is a CRUD budget app created with redux saga.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start:all`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs 'npm start' to run app in the development mode.\
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+Runs 'npm run backend' to run json-server in the development mode. \
+Open [http://localhost:4000/transactions](http://localhost:4000/transactions) to view JSON backend in the browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `db.json`
+
+Use `db.json` to ammend database.
+Any calls to apis listed in `redux-budgetapp.postman_collection.json` will update `db.json`
 
 ### `npm run build`
 

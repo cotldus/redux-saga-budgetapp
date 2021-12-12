@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Work Income Redux",
+      "value": 3000,
+      "isExpense": false
+    },
+    {
+      "id": 2,
+      "description": "Water Bill Redux",
+      "value": 200,
+      "isExpense": true
+    },
+    {
+      "id": 3,
+      "description": "Rent",
+      "value": 400,
+      "isExpense": true
+    },
+    {
+      "id": 4,
+      "description": "Food",
+      "value": 250,
+      "isExpense": true
+    }
+  ]
+}

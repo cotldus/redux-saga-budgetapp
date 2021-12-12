@@ -1,0 +1,67 @@
+{
+	"variables": [],
+	"info": {
+		"name": "redux-budgetapp",
+		"_postman_id": "ef17a61e-b494-4b0d-246b-47d333840ac3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post transaction",
+			"request": {
+				"url": "http://localhost:4000/transactions/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": 321,\"description\":\"Crafts\",\"value\":30.0,\"isExpense\":true}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Transaction",
+			"request": {
+				"url": "http://localhost:4000/transactions/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update Transaction",
+			"request": {
+				"url": "http://localhost:4000/transactions/321",
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": 321,\"description\":\"Gifts\",\"value\":30.0,\"isExpense\":true}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Transaction copy",
+			"request": {
+				"url": "http://localhost:4000/transactions/321",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
