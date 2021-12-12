@@ -11,7 +11,7 @@ In the project directory, you can run:
 
 ### `npm run start:all`
 
-Runs 'npm start' to run app in the development mode.\
+Runs `npm start` to run app in the development mode.\
 Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -23,7 +23,7 @@ For ubuntu or mac users, go to package.json and change `npm start` script to the
 "start": "PORT=8000 react-scripts start"
 ```
 
-Runs 'npm run backend' to run json-server in the development mode. \
+Runs `npm run backend` to run json-server in the development mode. \
 Open [http://localhost:4000/transactions](http://localhost:4000/transactions) to view JSON backend in the browser.
 
 ### `db.json`
